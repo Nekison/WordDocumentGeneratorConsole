@@ -22,13 +22,13 @@ namespace WordDocumentGenerator
 
             // Cargar un Documento existente
             Document document = new Document();
-            document.LoadFromFile(@"D:\Credentials\GoogleDocumentGenerated.docx");
+            //document.LoadFromFile(@"D:\Credentials\GoogleDocumentGenerated.docx");
 
             //Generar nuevo documento word
             GenerateDocument(BlankDocument);
 
             // contar cuantos parrafos tiene una seccion
-            //CountParagraph(document);
+            //CountParagraph(document);EIDER
 
             Console.ReadKey();
         }
